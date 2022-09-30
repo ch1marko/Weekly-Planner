@@ -1,0 +1,65 @@
+let dataz = `[
+    {
+        "title": "Go for a jog",
+        "picture": "img/sport.jpg",
+        "description": "Jogging in the park.",
+        "priority": 0
+    },
+    {   
+        "title": "Make breakfast",
+        "picture": "img/breakfast.jpg",
+        "description": "Cook breakfast with fresh ingredients",
+        "priority": 0,
+        "date": "14.06.1989."
+    },
+    {
+        "title": "Clean up",
+        "picture": "img/cleaning.jpg",
+        "description": "Clean the house.",
+        "priority": 0,
+        "date": "14.06.1989."
+    },
+    {
+        "title": "Work out",
+        "picture": "img/gym.jpg",
+        "description": "Go to the gym for a work-out.",
+        "priority": 0,
+        "date": "14.06.1989."
+    },
+    {
+        "title": "Laundry",
+        "picture": "img/laundry.jpg",
+        "description": "Wash the laundry.",
+        "priority": 0,
+        "date": "14.06.1989."
+    },
+    {
+        "title": "Vet",
+        "picture": "img/veterinarian.jpg",
+        "description": "Take the cat to the vet.",
+        "priority": 0,
+        "date": "14.06.1989."
+    },
+    {
+        "title": "Dinner",
+        "picture": "img/food.jpg",
+        "description": "Make dinner.",
+        "priority": 0,
+        "date": "14.06.1989."
+    },
+    {
+        "title": "Meet-up",
+        "picture": "img/groceries.jpg",
+        "description": "Meet up with friends.",
+        "priority": 0,
+        "date": "14.06.1989."
+    },
+    {
+        "title": "Code Review",
+        "picture": "img/groceries.jpg",
+        "description": "Do the Code Review and don't be able to go to sleep.",
+        "priority": 0,
+        "date": "14.06.1989."
+    }
+]`;
+   
