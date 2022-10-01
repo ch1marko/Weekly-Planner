@@ -41,8 +41,6 @@ buildCards();
 
 function addPriority(numberCard) {
     if (cards[numberCard].priority < 6) {
-
-
         let newPriority = cards[numberCard].priority++;
         document.getElementById("btn" + numberCard).innerHTML = newPriority;
 
