@@ -1,6 +1,6 @@
 let mockData = `[
     {
-        "id": 1,
+        "id": 0,
         "title": "Go for a jog",
         "picture": "pics/jogging.jpg",
         "description": "Jogging in the park.",
@@ -8,7 +8,7 @@ let mockData = `[
         "date": "Date: 14.06.1989."
     },
     {
-        "id": 2,
+        "id": 1,
         "title": "Make breakfast",
         "picture": "pics/breakfast1.jpg",
         "description": "Cook breakfast with fresh ingredients.",
@@ -16,7 +16,7 @@ let mockData = `[
         "date": "Date: 14.06.1989."
     },
     {
-        "id": 3,
+        "id": 2,
         "title": "Clean up",
         "picture": "pics/cleaning.jpg",
         "description": "Clean the house.",
@@ -24,7 +24,7 @@ let mockData = `[
         "date": "Date: 14.06.1989."
     },
     {
-        "id": 4,
+        "id": 3,
         "title": "Work out",
         "picture": "pics/gym.jpg",
         "description": "Go to the gym for a work-out.",
@@ -32,7 +32,7 @@ let mockData = `[
         "date": "Date: 14.06.1989."
     },
     {
-        "id": 5,
+        "id": 4,
         "title": "Laundry",
         "picture": "pics/laundry.jpg",
         "description": "Wash the laundry.",
@@ -40,7 +40,7 @@ let mockData = `[
         "date": "Date: 14.06.1989."
     },
     {
-        "id": 6,
+        "id": 5,
         "title": "Vet",
         "picture": "pics/vet.jpg",
         "description": "Take the cat to the vet.",
@@ -48,7 +48,7 @@ let mockData = `[
         "date": "Date: 14.06.1989."
     },
     {
-        "id": 7,
+        "id": 6,
         "title": "Dinner",
         "picture": "pics/dinner.jpg",
         "description": "Make dinner.",
@@ -56,7 +56,7 @@ let mockData = `[
         "date": "Date: 14.06.1989."
     },
     {
-        "id": 8,
+        "id": 7,
         "title": "Meet-up",
         "picture": "pics/friends.jpg",
         "description": "Meet up with friends.",
@@ -64,7 +64,7 @@ let mockData = `[
         "date": "Date: 14.06.1989."
     },
     {
-        "id": 9,
+        "id": 8,
         "title": "Code Review",
         "picture": "pics/coding.jpg",
         "description": "Do the Code Review and don't be able to go to sleep.",

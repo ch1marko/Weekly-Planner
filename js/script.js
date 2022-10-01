@@ -3,7 +3,7 @@ let priorityClick = 0;
 const btn = document.getElementById('btn');
 
 function buildCards() {
-    for (card of cards){
+    for (card of cards) {
         priorityClick += card.priority;
         document.getElementById("cardId").innerHTML += `
         <div class="card" style="width: 18rem; box-shadow: 2px 2px 2px 2px gray; ">
@@ -37,21 +37,20 @@ function buildCards() {
 
 buildCards();
 
-function addPriority(numberCard){
+function addPriority(numberCard) {
     if (cards[numberCard].priority < 6) {
 
-        
-        let newPriority = cards[numberCard].priority++;
-        document.getElementById("btn"+numberCard).innerHTML = newPriority;
 
-        if (newPriority == 0 || newPriority == 1){
-            document.getElementById("btn"+numberCard).className  = "btn btn-success";
-        } else if (newPriority == 2 || newPriority == 3){
-            document.getElementById("btn"+numberCard).className  = "btn btn-warning";
-        }else {
-            document.getElementById("btn"+numberCard).className  = "btn btn-danger";
+        let newPriority = cards[numberCard].priority++;
+        document.getElementById("btn" + numberCard).innerHTML = newPriority;
+
+        if (newPriority == 0 || newPriority == 1) {
+            document.getElementById("btn" + numberCard).className = "btn btn-success";
+        } else if (newPriority == 2 || newPriority == 3) {
+            document.getElementById("btn" + numberCard).className = "btn btn-warning";
+        } else {
+            document.getElementById("btn" + numberCard).className = "btn btn-danger";
         }
 
     }
-    console.log(numberCard)
 }
