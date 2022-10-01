@@ -8,7 +8,7 @@ function buildCards() {
         document.getElementById("cardId").innerHTML += `
         <div class="card" style="width: 18rem; box-shadow: 2px 2px 2px 2px gray; ">
             <div class="card-header bg-white">
-                <button type="button" class="btn btn-info btn-sm me-5">Task</button>
+                <button type="button" class="btn btn-info btn-sm me-5 text-white">Task</button>
                     <i class="text-white">....................</i>
                     <i class="bi bi-bookmark"></i>
                     <i class="bi bi-three-dots-vertical"></i>
