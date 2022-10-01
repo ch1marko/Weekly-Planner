@@ -21,7 +21,7 @@ function buildCards() {
                 <i class="bi-exclamation-triangle-fill me-0"></i>
                 <button class="btn" onClick="addPriority(${card.id})">
                 Priority level: 
-                </button> <button id="btn${card.id}">${card.priority}</button>
+                </button> <button id="btn${card.id}" onClick="addPriority(${card.id})">${card.priority}</button>
                 <br><i class="bi-calendar-date me-3"></i>${card.date}
             </div>
             </ul>
